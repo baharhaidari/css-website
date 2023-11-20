@@ -1,0 +1,163 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', sans-serif;
+}
+.Top-Container {
+  background-color: #E7D9EA;
+  padding-top: 100px;
+  position: relative;
+}
+.pro {
+  text-decoration: underline;
+  color: #B590CA;
+}
+.top-cloud {
+  position: absolute;
+  right: 200px;
+  top: 40px;
+}
+.bottom-cloud {
+  position: absolute;
+  left: 200px;
+  bottom: 400px;
+}
+.mountain {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  height: 300px;
+  width: 550px;
+}
+.profile {
+  width: 50%;
+  margin-left: 300px;
+  line-height: 2;
+}
+  h1 {
+  font-family: 'Sacramento', cursive;
+  font-size: 60px;
+  color: #80558C;
+  line-height: 2;
+}
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: #905E96;
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #905E96;
+}
+p {
+  color: #40514E;
+}
+.programmer {
+  font-size: 15px;
+  color: #40514E;
+}
+.Middle-Container {
+  width: 200px;
+  height: 200px;
+  margin: 100px auto 100px auto;
+}
+.pic {
+  height: 200px;
+  width: 200px;
+  margin: 30px;
+  clip-path: circle(6rem);
+  margin-bottom: 10px;
+  margin-top: 60px;
+}
+.computer {
+  height: 150px;
+  width: 150px;
+  float: right;
+  padding: 15px;
+}
+.keyboard {
+  height: 150px;
+  width: 150px;
+  float: right;
+  padding: 15px;
+}
+.office {
+  height: 150px;
+  width: 150px;
+  float: left;
+  padding: 15px;
+}
+.colors {
+  height: 150px;
+  width: 150px;
+  float: left;
+  padding: 15px;
+}
+
+.skill-row {
+  width: 50%;
+  line-height: 2;
+  margin: 100px auto 100px auto;
+}
+.bottom-container {
+  background-color: #C689C6;
+  padding: 40px;
+  margin-top: 40px;
+}
+.footer-link {
+  margin: 10px;
+  color: #EBC7E8;
+  text-decoration: none;
+}
+.name {
+  margin-top: 35px;
+  font-size: 100%;
+}
+hr {
+  width: 5%;
+  border: none;
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 6px;
+  border-color: #319DA0;
+}
+a:hover {
+  color: white;
+  text-decoration: underline;
+}
+a:active {
+  color: lightblue;
+}
+.p {
+  font-size: 90%;
+}
+.btn {
+  background: #ffbffc;
+  background-image: -webkit-linear-gradient(top, #ffbffc, #76287a);
+  background-image: -moz-linear-gradient(top, #ffbffc, #76287a);
+  background-image: -ms-linear-gradient(top, #ffbffc, #76287a);
+  background-image: -o-linear-gradient(top, #ffbffc, #76287a);
+  background-image: linear-gradient(to bottom, #ffbffc, #76287a);
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  text-shadow: 0 4px 12px #666666;
+  -webkit-box-shadow: 7px 7px 15px #666666;
+  -moz-box-shadow: 7px 7px 15px #666666;
+  box-shadow: 7px 7px 15px #666666;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 12px;
+  text-decoration: none;
+}
+.btn:hover {
+  background: #ad79b3;
+  background-image: -webkit-linear-gradient(top, #ad79b3, #784278);
+  background-image: -moz-linear-gradient(top, #ad79b3, #784278);
+  background-image: -ms-linear-gradient(top, #ad79b3, #784278);
+  background-image: -o-linear-gradient(top, #ad79b3, #784278);
+  background-image: linear-gradient(to bottom, #ad79b3, #784278);
+  text-decoration: none;
+  color: white;
+}
